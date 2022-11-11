@@ -1,0 +1,215 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+   
+}
+
+:root{
+    --black:  #15161B;
+    --black-gray: #2C2F37;
+    --white: #fff;
+    --light-blue: #1A7993;
+}
+
+body{
+    background: var(--black);
+    color: var(--white);
+}
+
+/* Título ===== */
+header{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.logo h2{
+    font-size: 30px;
+}
+
+.logo span{
+    color: var(--light-blue);
+}
+
+/* Section Participe  1 ====*/
+.participe1{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    padding: 20px;
+}
+
+.area-title{
+    padding: 20px;
+}
+
+.area-title h3{
+    font-weight: normal;
+}
+
+.area-title h1{
+    font-size: 45px;
+    line-height: 50px;
+    margin-top: 16px;
+}
+
+.area-title a{
+    display: inline-block;
+    background-color: var(--light-blue);
+    padding: 15px 60px;
+    font-size: 20px;
+    margin-top: 30px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.imagem1{
+    padding: 20px;
+}
+
+.imagem1 img{
+    width: 460px;
+    height: auto;
+    border-radius: 16px;
+}
+
+/* Section Botões ===== */
+.section-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+}
+
+.cards .card{
+    background-color: var(--black-gray);
+    width: 200px;
+    height: 180px;
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: 0.3s all;
+}
+
+.cards .card:hover{
+    background: var(--light-blue);
+}
+
+.section-cards .h2{
+    text-transform: uppercase;
+    font-size: 22px;
+}
+
+.cards .card i{
+    font-size: 70px;
+    margin: 5px;
+}
+
+/* Section participe 2 =====*/
+.participe2{
+    width: 100%;
+    padding: 0;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--light-blue);
+    margin-bottom: 100px;
+}
+
+.area-title2 h1{
+    font-size: 45px;
+    line-height: 50px;  
+}
+
+.area-title2 h3{
+    font-weight: normal;
+}
+
+.area-title2, .image2{
+    padding: 0px 20px;
+}
+
+.image2 img{
+    width: 350px;
+    height: 100%;
+}
+
+.area-title2 a{
+    display: inline-block;
+    background-color: var(--white);
+    padding: 15px 60px;
+    font-size: 20px;
+    margin-top: 30px;
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--black);
+    border-radius: 2px;
+}
+
+/* Section formulário */
+.form{
+    display: block;
+    justify-content: center;
+    text-align: center;
+}
+
+.form h1{
+    font-size: 40px;
+}
+
+.form form{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form form input[type='text'], .form form input[type='email']{
+    width: 400px;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+}
+
+.form form input[type='submit']{
+    display: inline-block;
+    background-color: var(--light-blue);
+    padding: 15px 60px;
+    width: 400px;
+    font-size: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--white);
+    border-radius: 2px;
+    border: none;
+}
+
+/* Rodapé */
+footer{
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+}
+footer .icones a{
+    text-decoration: none;
+    color: var(--white);
+    margin: 10px;
+    font-size: 30px;
+}
