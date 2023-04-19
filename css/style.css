@@ -16,7 +16,7 @@
 body{
     background: var(--black);
     color: var(--white);
-    width: 100vw;
+    width: 100%;
 }
 
 /* Título ===== */
